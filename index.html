@@ -1,23 +1,222 @@
 <!DOCTYPE html>
-<style>
-  /* netnet default bg */
-  body {
-    margin: 0;
-    background-image: linear-gradient(#515199a8 2px, transparent 1px),
-      linear-gradient(90deg, #515199a8 2px, transparent 1px);
-    background-size: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
+<html lang="EN-CA">
+  <head>
+    <title>Final website</title>
+    <!--'created by Janelle on 12/6'-->
+    
+<style> 
+  
+       @font-face {
+        font-family: 'PP Playground';
+        src: url('PPPlayground-Medium.otf');
+        }
+  
+      @font-face {
+        font-family: 'Cursive';
+        src: url('Cursive.ttf');
+      }
+        
+      .main-container {
+          width: 1440px;
+          background-color: white;
+          position: relative;
+        }
+        
+      .content {
+          width: 1200px;
+          margin: 120px auto; 
+          z-index: 0;
+          padding-bottom: 0px;
+          background: linear-gradient(180deg, #D4E9FF, #AAD3FF);
+          border-radius: 30px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          color: white;
+        }
+  
+      .top-nav {
+          width: 557px;
+          height: 70px; 
+          background: rgba(255, 255, 255, 0.7);
+          border-radius: 14px; 
+        
+          position: absolute;
+          top: 30px; 
+          left: 50%; 
+          transform: translateX(-50%);
+    
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 65px;
+        
+          font-family: 'Hoefler Text', Georgia, serif;
+          font-style: italic;
+          font-size: 25px;
+          
+          box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+        }
 
-  body::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(0deg, #c76ebca8, #515199a8);
-  }
-</style>
+      .top-nav a {
+          text-decoration: none;
+          color: #333; /* dark text */
+          transition: color 0.3s;
+        }
+
+      .top-nav a:hover {
+          color: #3498db; /* change on hover */
+        }
+  
+       .p1 {
+         position: absolute;
+         top: -30px; 
+         left: 260px;
+        }
+  
+       .p2 {
+         position: absolute;
+         top: 150px; 
+         left: 365px;
+        }
+  
+       .p3 {
+         position: absolute;
+         top: 100px;
+         left: 620px;
+        }
+  
+       .p4 {
+         position: absolute;
+         top: 310px;
+         left: 745px;
+        }
+  
+        .main-container div.header1 {
+          font-family: 'PP Playground';
+          font-weight: 0;
+          text-shadow: 0 0 7px rgba(255, 255, 255, 1);
+          font-size: 14em;
+        }
+  
+        .main-container div.header2 {
+          font-family: 'Cursive';
+          text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+          font-size: 120px;
+        }
+  
+       .text-image article {
+          width: 60%;
+          font-family: 'Hoefler Text', Georgia, serif;
+          font-style: italic;
+          font-weight: lighter;
+          font-size: 25px;
+          color: grey;
+          line-height: 33px;
+        }
+  
+        .text-image {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-top: 650px;
+          margin-left: 100px;
+          margin-right: 100px;
+          margin-bottom: 100px;
+        }
+  
+        .text-image img {
+          width: 350px;  
+          height: auto;
+          border-radius: 10px;
+        }
+  
+        footer {
+          margin-top: auto;
+          background: rgba(255, 255, 255, 0.8);
+          padding: 25px;
+          color: grey;
+          font-family: 'InaiMathi', serif;
+          padding-left: 50px;
+          border-radius: 30px;
+        }
+  
+        .floating-graphic {
+          position: absolute;
+          width: 150px;
+        }
+  
+        .g1 {
+          top: 130px;    
+          left: 150px;
+        }
+    
+        .g2 {
+          top: 100px;
+          right: 350px;
+          width: 60px;
+        }
+  
+        .g3 {
+          top: 450px;
+          right: 150px;
+        }
+  
+        .bg-graphic {
+          position: absolute;
+          z-index: -0.5;
+          
+        }
+  
+        .b1 {
+          bottom: 0;
+        }
+  
+        .content-wrapper {
+          position: relative;
+          z-index: 10;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main-container">
+         <div class="content">
+           
+            <img src="blur1.png" class="bg-graphic b1" alt="blur1">
+           <div class="content-wrapper">
+             <nav  class="top-nav">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">design</a>
+            <a href="#">contact</a>
+              </nav>
+           <div class="header1">
+             <p class="p1">J</p>
+             <p class="p3">L</p>
+           <div class="header2">
+             <p class="p2">anelle</p>
+             <p class="p4">ai</p>
+           </div>
+          </div>
+           
+           <img src="graphic1.png" class="floating-graphic g1" alt="graphic1">
+           <img src="graphic2.png" class="floating-graphic g2" alt="graphic2">
+           <img src="graphic3.png" class="floating-graphic g3" alt="graphic3">
+           
+           
+         <div class="text-image">
+         <article>
+    <p>Hello! I’m Janelle! ^u^ I’m originally from Hong Kong and am now a second-year Global Business and Digital Arts student at the University of Waterloo. I have a wide range of interests, along with a curiosity for trying new things, design being one of them!</p>
+    <p>I’m still figuring out what I’m most passionate about, but I love staying curious and open to new ideas. I’m excited to keep discovering what I enjoy and what I want to create.</p>
+         </article>
+         <img src="img1.png" alt="Cafe">
+         </div>      
+           
+       <footer> <p>DESIGNED &amp; BUILT WITH <br> FIGMA &amp; NETNET STUDIO </p> </footer>
+     </div> 
+   </div>
+  </div>
+</body>
+</html>
     
