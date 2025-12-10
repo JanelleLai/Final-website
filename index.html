@@ -5,220 +5,218 @@
     <!--'created by Janelle on 12/6'-->
     
 <style> 
-  
-       @font-face {
-        font-family: 'PP Playground';
-        src: url('PPPlayground-Medium.otf');
-        }
+      @font-face {
+       font-family: 'PP Playground';
+       src: url('PPPlayground-Medium.otf');
+      }
   
       @font-face {
-        font-family: 'Cursive';
-        src: url('Cursive.ttf');
+       font-family: 'Cursive';
+       src: url('Cursive.ttf');
       }
   
       body {
-        background: linear-gradient(180deg, #AAD3FF, white);
+       background: linear-gradient(180deg, #AAD3FF, white);
       }
         
       .content {
-          width: 1200px;
-          margin: 120px auto; 
-          z-index: 0;
-          background: linear-gradient(180deg, #D4E9FF, #AAD3FF);
-          border-radius: 30px;
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          color: white;
-          border-style: solid;
-          border-color: grey;
-        }
+       width: 1200px;
+       margin: 120px auto; 
+       z-index: 0;
+       background: linear-gradient(180deg, #D4E9FF, #AAD3FF);
+       border-radius: 30px;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       color: white;
+       border-style: solid;
+       border-color: grey;
+      }
   
       .top-nav {
-          width: 557px;
-          height: 70px; 
-          background: rgba(255, 255, 255, 0.7);
-          border-radius: 14px; 
+       width: 557px;
+       height: 70px; 
+       background: rgba(255, 255, 255, 0.7);
+       border-radius: 14px; 
         
-          position: absolute;
-          top: 30px; 
-          left: 50%; 
-          transform: translateX(-50%);
+       position: absolute;
+       top: 30px; 
+       left: 50%; 
+       transform: translateX(-50%);
     
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 65px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 65px;
         
-          font-family: 'Hoefler Text', Georgia, serif;
-          font-style: italic;
-          font-size: 25px;
-          
-          box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
-        }
+       font-family: 'Hoefler Text', Georgia, serif;
+       font-style: italic;
+       font-size: 25px;
+       box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+      }
 
       .top-nav a {
-          text-decoration: none;
-          color: #333; /* dark text */
-          transition: color 0.3s;
-        }
+       text-decoration: none;
+       color: black; 
+       transition: color 0.3s;
+      }
 
       .top-nav a:hover {
-          color: #3498db; /* change on hover */
-        }
+       color: #3498DB; 
+      }
   
-       .p1 {
-         position: absolute;
-         top: -30px; 
-         left: 260px;
-        }
+      /* header text */
+      .p1 {
+       position: absolute;
+       top: -30px; 
+       left: 260px;
+      }
   
-       .p2 {
-         position: absolute;
-         top: 150px; 
-         left: 365px;
-        }
+      .p2 {
+       position: absolute;
+       top: 150px; 
+       left: 365px;
+      }
   
-       .p3 {
-         position: absolute;
-         top: 100px;
-         left: 620px;
-        }
+      .p3 {
+       position: absolute;
+       top: 100px;
+       left: 620px;
+      }
   
-       .p4 {
-         position: absolute;
-         top: 300px;
-         left: 745px;
-        }
+      .p4 {
+       position: absolute;
+       top: 300px;
+       left: 745px;
+      }
   
-        .content div.header1 {
-          font-family: 'PP Playground';
-          font-weight: 0;
-          text-shadow: 0 0 7px rgba(255, 255, 255, 1);
-          font-size: 14em;
-        }
+      .content div.header1 {
+       font-family: 'PP Playground';
+       font-weight: 0;
+       text-shadow: 0 0 7px rgba(255, 255, 255, 1);
+       font-size: 14em;
+      }
   
-        .content div.header2 {
-          font-family: 'Cursive';
-          text-shadow: 0 0 5px rgba(255, 255, 255, 1);
-          font-size: 120px;
-        }
+      .content div.header2 {
+       font-family: 'Cursive';
+       text-shadow: 0 0 5px rgba(255, 255, 255, 1);
+       font-size: 120px;
+      }
   
-       .text-image article {
-          width: 60%;
-          font-family: 'Hoefler Text', Georgia, serif;
-          font-style: italic;
-          font-weight: lighter;
-          font-size: 25px;
-          color: grey;
-          line-height: 33px;
-        }
+      .text-image article {
+       width: 60%;
+       font-family: 'Hoefler Text', Georgia, serif;
+       font-style: italic;
+       font-weight: lighter;
+       font-size: 25px;
+       color: grey;
+       line-height: 33px;
+      }
   
-        .text-image {
-          display: flex;
-          justify-content: center;  
-          align-items: flex-start;
-          gap: 50px;                 
-          margin: 700px auto 100px auto;  
-          padding-left: 100px;  
-          padding-right: 100px;      
-          box-sizing: border-box;
-        }
+      .text-image {
+       display: flex;
+       justify-content: center;  
+       align-items: flex-start;
+       gap: 50px;                 
+       margin: 700px auto 100px auto;  
+       padding-left: 100px;  
+       padding-right: 100px;      
+       box-sizing: border-box;
+      }
   
-        .text-image img {
-          width: 350px;  
-          height: auto;
-        }
+      .text-image img {
+       width: 350px;  
+       height: auto;
+      }
   
-        footer {
-          margin-top: auto;
-          background: rgba(255, 255, 255, 0.8);
-          padding: 30px;
-          color: grey;
-          font-family: 'InaiMathi', serif;
-          padding-top: 50px;
-          border-radius: 30px;
-        }
+      footer {
+       margin-top: auto;
+       background: rgba(255, 255, 255, 0.8);
+       padding: 30px;
+       color: grey;
+       font-family: 'InaiMathi', serif;
+       padding-top: 50px;
+       border-radius: 30px;
+      }
   
-        footer .right {
-          text-align: right;
-        }
+      footer .right {
+       text-align: right;
+      }
   
-        .floating-graphic {
-          position: absolute;
-          width: 140px;
-        }
+      .floating-graphic {
+       position: absolute;
+       width: 140px;
+      }
   
-        .g1 {  /* pink */
-          top: 490px;    
-          left: 260px;
-        }
+      .g1 {  /* pink */
+       top: 490px;    
+       left: 260px;
+      }
     
-        .g2 {    /* nav bar sparkle */
-          top: 100px;
-          right: 350px;
-          width: 60px;
-        }
+      .g2 {    /* nav bar sparkle */
+       top: 100px;
+       right: 350px;
+       width: 60px;
+      }
   
-        .g3 {   /* blue */
-          top: 220px;
-          right: 200px;
-        }
+      .g3 {   /* blue */
+       top: 220px;
+       right: 200px;
+      }
   
-        .g4 {    /* line */
-          top: 500px;
-          left: 410px;
-        }
+      .g4 {    /* line */
+       top: 500px;
+       left: 410px;
+      }
   
-        .g5 {      /* right sparkle */
-          top: 480px;
-          right: 160px;
-          width: 150px;
-          animation: sparkling 1.5s infinite;
-        }
+      .g5 {      /* right sparkle */
+       top: 480px;
+       right: 160px;
+       width: 150px;
+       animation: sparkling 1.5s infinite;
+      }
   
-        .g6 {      /* left sparkle */
-          top: 140px;
-          left: 120px;
-          width: 150px;
-          animation: sparkling 1.5s infinite;
-        }
+      .g6 {      /* left sparkle */
+       top: 140px;
+       left: 120px;
+       width: 150px;
+       animation: sparkling 1.5s infinite;
+      }
   
-        @keyframes sparkling {
-          from {width: 150px;}
-          to {width: 170px;}
-        }
+      @keyframes sparkling {
+       from {width: 150px;}
+       to {width: 170px;}
+      }
   
-        .bg-graphic {
-          position: absolute;
-          z-index: -0.5;
-        }
+      .bg-graphic {
+       position: absolute;
+       z-index: -0.5;
+      }
   
-        .b1 {
-          bottom: 0;
-        }
+      .b1 {
+       bottom: 0;
+      }
   
-        .b2 {
-          position: absolute;
-          left: 50%;
-          transform: translateX(-50%); 
-        }
+      .b2 {
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%); 
+      }
   
-        .content-wrapper {
-          position: relative;
-          z-index: 10;
-        }
+      .content-wrapper {    /* GenAI used to fix component layers*/
+       position: relative;
+       z-index: 10;
+      }
     
     </style>
 </head>
 <body>
-    
-         <div class="content">
+    <div class="content">
            
-            <img src="blur1.png" class="bg-graphic b1" alt="blurry graphics in the background">
-           <img src="blur2.png" class="bg-graphic b2" alt="blurry graphics in the background">
+        <img src="blur1.png" class="bg-graphic b1" alt="blurry graphics in the background">
+        <img src="blur2.png" class="bg-graphic b2" alt="blurry graphics in the background">
            
-           <div class="content-wrapper">
+        <div class="content-wrapper">
              <nav  class="top-nav">
             <a href="https://janellelai.github.io/Final-website/">Home</a>
             <a href="https://janellelai.github.io/Aboutpage/">About</a>
@@ -239,22 +237,18 @@
            <img src="graphic3.png" class="floating-graphic g3" alt="blue graphic">
            <img src="graphic4.png" class="floating-graphic g4" alt="white line graphic">
            <img src="sparkle.png" class="floating-graphic g5" alt="sparkle graphic">
-          <img src="sparkle.png" class="floating-graphic g6" alt="sparkle graphic">
+           <img src="sparkle.png" class="floating-graphic g6" alt="sparkle graphic">
            
          <div class="text-image">
-         <article>
-    <p>Hello! I’m Janelle! ^u^ I’m originally from Hong Kong and am now a second-year Global Business and Digital Arts student at the University of Waterloo. I have a broad range of interests, along with a curiosity for trying new things, design being one of them!</p>
-    <p>I’m still discovering where my passions truly lie, but I enjoy staying open to new ideas and opportunities. I look forward to continuing to grow, explore my interests, and develop my creative direction.</p>
-         </article>
+         <article><p>Hello! I’m Janelle! ^u^ I’m originally from Hong Kong and am now a second-year Global Business and Digital Arts student at the University of Waterloo. I have a broad range of interests, along with a curiosity for trying new things, design being one of them!</p><p>I’m still discovering where my passions truly lie, but I enjoy staying open to new ideas and opportunities. I look forward to continuing to grow, explore my interests, and develop my creative direction.</p></article>
          <img src="img2.png" alt="Cafe">
          </div>      
            
        <footer>  DESIGNED &amp; BUILT WITH <br> FIGMA &amp; NETNET STUDIO
-      <div class="right"><a href="https://youtu.be/SVkGRoLicuA?si=4Jq4r4ODuFLYXLRW" target="_blank">🎵 BGM</a></div> 
+         <div class="right"><a href="https://youtu.be/SVkGRoLicuA?si=4Jq4r4ODuFLYXLRW" target="_blank">🎵 BGM</a></div> 
       </footer>
      </div> 
    </div>
-  
-</body>
+  </body>
 </html>
     
